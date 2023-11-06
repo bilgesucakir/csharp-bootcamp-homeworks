@@ -80,6 +80,19 @@ public class BookService :IBookService
 
     }
 
+    public void GetByIsbn(string isbn)
+    {
+        try
+        {
+            Book? book = _bookRepository.GetByIsbn(isbn);
+            Console.WriteLine(book);
+        }
+        catch(BookNotFoundWithIsbnException ex) 
+        {
+            Console.WriteLine(ex.Message);
+        }
+    }
+
     public void GetList()
     {
         List<Book> books = _bookRepository.GetAll();

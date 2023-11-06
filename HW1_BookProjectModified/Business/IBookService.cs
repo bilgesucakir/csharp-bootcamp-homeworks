@@ -10,4 +10,6 @@ internal interface IBookService
     void Add(Book book);
     void Delete(int id);
     void GetById(int id);
+
+    void GetByIsbn(string isbn);
 }

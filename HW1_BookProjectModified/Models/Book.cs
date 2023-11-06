@@ -14,7 +14,7 @@ public class Book :EntityBase<int>
 
     public override string ToString()
     {
-        return $"Id : {Id}, Başlık : {Title}, Açıklama : {Description}, Değeri :{Price}, Stok : {Stock} Category Id :{CategoryId} AuthorId : {AuthorId}";
+        return $"Id : {Id}, Başlık : {Title}, Açıklama : {Description}, Değeri :{Price}, Stok : {Stock}, Category Id :{CategoryId}, AuthorId : {AuthorId}";
     }
 
 }

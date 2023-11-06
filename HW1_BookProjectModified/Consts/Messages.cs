@@ -1,4 +1,4 @@
-﻿namespace   HW1_BookProjectModified.Consts;
+﻿namespace HW1_BookProjectModified.Consts;
 
 public  class Messages
 {
@@ -12,6 +12,8 @@ public  class Messages
         return $"girdiğiniz stok ve değer bilgisi negatif değerler olamaz. Stok :{stock}, Kitap değeri : {price}";
     }
 
-    
-
+    internal static string AuthorNameExceptionMessage(string name)
+    {
+        return $"Auhtor name \"{name}\" should be at least two characters long. Current length: {name.Length}";
+    }
 }
