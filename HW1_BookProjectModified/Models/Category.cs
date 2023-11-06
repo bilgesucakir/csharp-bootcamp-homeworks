@@ -1,5 +1,5 @@
 ﻿
-namespace Day4_BookProject.Models;
+namespace HW1_BookProjectModified.Models;
 
 public class Category :EntityBase<string>
 {

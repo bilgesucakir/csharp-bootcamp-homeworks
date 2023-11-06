@@ -1,7 +1,7 @@
 ﻿
-using Day4_BookProject.Models;
+using HW1_BookProjectModified.Models;
 
-namespace Day4_BookProject.Data;
+namespace HW1_BookProjectModified.Data;
 
 public interface IBookRepository : IEntityBaseRepository<Book,int>
 {

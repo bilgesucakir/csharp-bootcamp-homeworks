@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day4_BookProject.Models;
+namespace HW1_BookProjectModified.Models;
 
 // Generic programlama
 public abstract class EntityBase<TId>

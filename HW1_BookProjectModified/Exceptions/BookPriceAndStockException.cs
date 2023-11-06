@@ -1,6 +1,6 @@
 ﻿using Day4_BookProject.Consts;
 
-namespace Day4_BookProject.Exceptions;
+namespace HW1_BookProjectModified.Exceptions;
 
 public class BookPriceAndStockException : Exception
 {

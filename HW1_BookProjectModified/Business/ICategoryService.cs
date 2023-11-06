@@ -1,5 +1,5 @@
 ﻿
-namespace Day4_BookProject.Business;
+namespace HW1_BookProjectModified.Business;
 
 internal interface ICategoryService
 {

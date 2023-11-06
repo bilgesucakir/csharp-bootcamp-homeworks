@@ -1,6 +1,6 @@
-﻿using Day4_BookProject.Data;
+﻿using HW1_BookProjectModified.Data;
 
-namespace Day4_BookProject.Business;
+namespace HW1_BookProjectModified.Business;
 
 public class CategoryService : ICategoryService
 {

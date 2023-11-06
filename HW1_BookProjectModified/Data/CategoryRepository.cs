@@ -1,11 +1,11 @@
-﻿using Day4_BookProject.Models;
+﻿using HW1_BookProjectModified.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Day4_BookProject.Data;
+namespace HW1_BookProjectModified.Data;
 
 public class CategoryRepository : ICategoryRepository
 {

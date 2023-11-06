@@ -1,8 +1,8 @@
 ﻿
 
-using Day4_BookProject.Models;
+using HW1_BookProjectModified.Models;
 
-namespace Day4_BookProject.Business;
+namespace HW1_BookProjectModified.Business;
 
 internal interface IBookService
 {

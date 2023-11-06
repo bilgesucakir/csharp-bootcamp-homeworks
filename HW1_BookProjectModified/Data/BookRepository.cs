@@ -1,6 +1,6 @@
-﻿using Day4_BookProject.Exceptions;
-using Day4_BookProject.Models;
-namespace Day4_BookProject.Data;
+﻿using HW1_BookProjectModified.Exceptions;
+using HW1_BookProjectModified.Models;
+namespace   HW1_BookProjectModified.Data;
 
 public class BookRepository :IBookRepository
 {

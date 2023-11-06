@@ -1,9 +1,9 @@
 ﻿
-using Day4_BookProject.Data;
-using Day4_BookProject.Exceptions;
-using Day4_BookProject.Models;
+using HW1_BookProjectModified.Data;
+using HW1_BookProjectModified.Exceptions;
+using HW1_BookProjectModified.Models;
 
-namespace Day4_BookProject.Business;
+namespace HW1_BookProjectModified.Business;
 
 
 // Dependency Injection  (Constructor args Injection, Setter injection, method injection)

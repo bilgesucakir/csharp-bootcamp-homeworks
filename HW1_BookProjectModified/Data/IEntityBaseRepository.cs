@@ -1,4 +1,4 @@
-﻿namespace Day4_BookProject.Data;
+﻿namespace HW1_BookProjectModified.Data;
 
 public interface IEntityBaseRepository<TEntity,TId>
 {

@@ -1,4 +1,4 @@
-﻿namespace Day4_BookProject.Consts;
+﻿namespace   HW1_BookProjectModified.Consts;
 
 public  class Messages
 {
@@ -11,5 +11,7 @@ public  class Messages
     {
         return $"girdiğiniz stok ve değer bilgisi negatif değerler olamaz. Stok :{stock}, Kitap değeri : {price}";
     }
+
+    
 
 }
